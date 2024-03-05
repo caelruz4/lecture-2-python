@@ -11,5 +11,7 @@ datos_personas = [
 
     {"nombre": "Pedro", "edad": 35,
       "direcciones": [{"calle": "Calle D", "ciudad": "Ciudad W"}], 
-     "contactos": ["pedro@yahoo.com", "555-123-4567"]},
+     "contactos": ["pedro@yahoo.com", "555-123-4567"]}
 ]
+
+print(datos_personas[2]["direcciones"][0]["ciudad"])

@@ -16,14 +16,14 @@ print(frutas[-1])
 print(frutas[::-1])
 
 # Sublistas, dividiendola
-print(frutas[1:3])
+print(frutas[1:3]) #agrega del elemento uno al elemento antes del 3
 print(frutas[:3])
-frutas.append("mango")
-frutas.index("naranja")
-frutas.count("naranja")
-frutas.sort()
-frutas.pop(2)
-frutas.remove("naranja")
+frutas.append("mango") #lo agrega al final de la lista
+frutas.index("naranja") #el indice en el que aparece por primera vez naranja
+frutas.count("naranja") #cuantos elementos hay en mi lista
+frutas.sort() #ordena de manera ascendente
+frutas.pop(2) #eliminar el elemento de tal indice
+frutas.remove("naranja") #eliminar algo en especifico en toda la lista
 frutas.reverse() # invertir
-frutas.insert(2, "limon")
+frutas.insert(2, "limon") #introducir en la posicion tal palabra
 frutas.clear()
