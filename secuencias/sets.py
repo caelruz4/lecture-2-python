@@ -1,4 +1,4 @@
-s = set() # crea un conjunto vacio
+s = set() # crea un conjunto vacio -No existen elementos repetidos y pueden ser desordenadas, se utiliza la palabra reservada set para crear uno vacio
 # Otra forma de iniciar set
 a = {1, 2, 3, 4}
 b = {}
@@ -18,7 +18,7 @@ s.discard(1) # elimina un elemento no tira error si no lo encuentra
 print(s)
 # No puedo acceder mediante un índice
 # print(s[0])
-# Update para añadir mas de un elemento
+# Update para añadir mas de un elemento -no tiene orden asi que lo hara en cualquier lugar
 s.update([5, 6, 7])
 
 
@@ -32,7 +32,7 @@ print(s3)
 # Intersección
 s1 = {1, 2, 3, 4}
 s2 = {3, 4, 5, 6}
-s3 = s1.intersection(s2)
+s3 = s1.intersection(s2) #te devuelve los elementos que se repiten
 # s3 = s1 & s2
 print(s3)
 

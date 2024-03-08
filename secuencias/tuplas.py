@@ -1,4 +1,4 @@
-# Crear una tupla
+# Crear una tupla (estructura de dato ordenada pero no puede ser mutable)
 mi_tupla = (1, 2, 3, 4, 5)
 
 # Acceder a elementos de la tupla
